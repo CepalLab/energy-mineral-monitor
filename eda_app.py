@@ -24,7 +24,7 @@ def load_data(path):
         st.error(f"Error: No se pudo encontrar el archivo en la ruta: {path}")
         return None
 
-df_news = load_data('C:/Users/abustamante/vigilante/mineralwatch/df_news_final.csv')
+df_news = load_data('df_news_final.csv')
 
 if df_news is not None:
     # --- Sidebar Navigation ---
