@@ -28,7 +28,7 @@ def load_data_and_process_embeddings():
 
 def run_search():
     st.header("Buscador Semántico Avanzado")
-    st.markdown("Este buscador utiliza embeddings vectoriales para encontrar noticias basadas en el significado y contexto de tu consulta.")
+    st.markdown("Este buscador utiliza embeddings vectoriales para encontrar noticias basadas en el significado y contexto de tu consulta. Ajusta el umbral de relevancia para mayor precisión semántica (valores hacia 1)")
 
     with st.spinner("Cargando modelo de lenguaje y base de datos... Esto puede tardar un momento la primera vez."):
         model = load_embedding_model()
